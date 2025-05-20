@@ -2,15 +2,11 @@
 
 Make your terminal beautiful, productive, and lightning fast on **Linux**, **macOS**, and **Windows (WSL or native)** using Zsh, Oh My Zsh, plugins, and stunning prompt themes like **Oh My Posh**, **Starship**, and **Powerlevel10k**.
 
----
-
 ## 🧰 Platforms Covered
 
 - ✅ Linux (Debian-based)
 - ✅ macOS (Intel & Apple Silicon)
 - ✅ Windows (WSL or Windows Terminal)
-
----
 
 ## 🐚 1. Install Zsh
 
@@ -34,15 +30,11 @@ chsh -s /bin/zsh  # or use $(which zsh)
 - WSL: Use your distro’s package manager (e.g. `apt`) to install Zsh.
 - Windows Terminal: Install a Linux distro via WSL and follow Linux steps.
 
----
-
 ## 🎩 2. Install Oh My Zsh
 
 ```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
-
----
 
 ## 🔌 3. Install Recommended Plugins
 
@@ -80,13 +72,9 @@ plugins=(
 source ~/.zshrc
 ```
 
----
-
 ## 💅 4. Choose a Prompt Theme
 
----
-
-### 🌈 Option A: Powerlevel10k
+#### 🌈 Option A: Powerlevel10k
 
 Powerful and highly customizable Oh My Zsh theme.
 
@@ -116,7 +104,7 @@ Install [Nerd Font](https://www.nerdfonts.com/font-downloads) like **MesloLGS NF
 
 ---
 
-### 💎 Option B: Oh My Posh (Cross-Platform)
+#### 💎 Option B: Oh My Posh (Cross-Platform)
 
 ```bash
 curl -s https://ohmyposh.dev/install.sh | bash -s
@@ -133,7 +121,7 @@ eval "$(oh-my-posh init zsh --config ~/your-theme-path.omp.json)"
 
 ---
 
-### 🚀 Option C: Starship
+#### 🚀 Option C: Starship
 
 ```bash
 curl -sS https://starship.rs/install.sh | sh
@@ -154,8 +142,6 @@ nano ~/.config/starship.toml
 
 > Browse configs: https://starship.rs/config/
 
----
-
 ## 🎨 5. Fonts & Terminal Setup
 
 ### 🧠 Required Font: Nerd Fonts
@@ -170,16 +156,12 @@ Install [MesloLGS Nerd Font](https://www.nerdfonts.com/font-downloads) and apply
 "terminal.integrated.fontFamily": "MesloLGS NF"
 ```
 
----
-
 ## ✅ Final Touch
 
 ```bash
 source ~/.zshrc
 exec zsh
 ```
-
----
 
 ## 📚 Reference Links
 
@@ -190,8 +172,6 @@ exec zsh
 | Oh My Posh    | Prompt theme engine (cross-platform) | https://ohmyposh.dev                     |
 | Starship      | Fast, minimal prompt                 | https://starship.rs                      |
 | Nerd Fonts    | Fonts with icons                     | https://www.nerdfonts.com                |
-
----
 
 ## 🎉 All Set!
 
